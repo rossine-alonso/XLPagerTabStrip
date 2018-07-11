@@ -70,6 +70,8 @@ public struct ButtonBarPagerTabStripSettings {
     }
 
     public var style = Style()
+    
+    public init() {}
 }
 
 open class ButtonBarPagerTabStripViewController: PagerTabStripViewController, PagerTabStripDataSource, PagerTabStripIsProgressiveDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
